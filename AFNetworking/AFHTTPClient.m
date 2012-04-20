@@ -96,6 +96,7 @@ static NSString * AFBase64EncodedStringFromString(NSString *string) {
 }
 
 NSString * AFURLEncodedStringFromStringWithEncoding(NSString *string, NSStringEncoding encoding) {
+    return string;
     static NSString * const kAFLegalCharactersToBeEscaped = @"?!@#$^&%*+=,:;'\"`<>()[]{}/\\|~ ";
     
     /* 
